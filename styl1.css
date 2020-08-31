@@ -1,0 +1,808 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-image:linear-gradient(to right,#B31270 20%,#581B5E 80%);
+}
+body{
+    overflow-x: hidden;
+}
+ul{
+    list-style: none;
+   
+}
+a{
+    color:#fff;
+    text-decoration:none;
+}
+.logo{
+    width:60px;
+    height:60px;
+}
+.logo img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    padding-top:0.4rem;
+}
+.navigation{
+    display: flex;
+    width:70%;
+    margin: auto;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    display: inline-block;
+    padding:0px 10px;
+}
+.navbar ul li{
+    font-size:1rem;
+    font-weight:300;
+
+}
+.navbar ul li:first-child a{
+    color:gold;
+}
+
+.navbar ul li a:hover{
+    color:gold;
+}
+
+/* Working of nav has been Completed */
+
+.container{
+    width:60%;
+    margin:auto;
+    display: flex;
+}
+.text{
+    flex:50%;
+    
+     margin:150px 0px;
+}
+.landingimage{
+    display: flex;
+    justify-content: flex-end;
+    margin-top:50px
+}
+.landingimage img{
+    object-fit: cover;
+}
+.text h1{
+    font-size:1.6rem;
+    color:#fff;
+    font-family: "poppins",sans-serif;
+    font-weight:bold;
+   width:600px;
+ 
+}
+.text p{
+    margin:10px 0px 30px; 
+    padding:10px 0px;
+
+    color:#fff;
+   
+    font-size:1rem;
+    letter-spacing: 1px;
+}
+
+.btn{
+    width:180px;
+    background-color: #FE8600;
+    padding:8px 10px;
+    display: block;
+    outline: none;
+    cursor: pointer;
+    border:none;
+    display: inline-block;
+    border:2px solid#FE8600;
+    font-size:1rem;
+    transition:all 0.4s linear;
+}
+.btn1{
+    width:180px;
+    background-color: transparent;
+    padding:8px 10px;
+    display: block;
+    outline: none;
+    cursor: pointer;
+    margin:0px 10px;
+    display: inline-block;
+    border:2px solid #fff;
+    color:#fff;
+    font-size:1rem;
+    transition:all 0.4s linear;
+ 
+}
+.btn:hover{
+    background-color: transparent;
+    
+}
+.btn1:hover{
+    background-color: #FE8600;
+    border:2px solid#FE8600;
+}
+
+/* Work of landing page has been Completed */
+
+#best-features{
+    margin-top:40px;
+   
+    
+}
+.features-heading{
+    text-align:center;
+}
+.features-heading h1{
+    font-size:2.6rem;
+    position: relative;
+    
+}
+.features-heading h1::after{
+    content:'';
+    position: absolute;
+    margin:auto;
+    width:120px;
+    background-image:linear-gradient(to right,#B31270 20%,#581B5E 80%);
+    height:6px;
+    top:98%;
+   left:46%;
+}
+hr{
+    width:250px;
+    margin:auto;
+    border:1px solid #000;
+}
+
+.features-container{
+    width:80%;
+    margin:80px auto;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.features-column{
+    flex:30%;
+
+    margin:0px 10px;
+    text-align: center;
+    padding:8px 10px;
+}
+.icons{
+    width:100px;
+    height:100px;
+    position: relative;
+   left:40%;
+}
+.icons i{
+    padding-top:20px;
+    color:#fff;
+}
+.icons::after{
+ position: absolute;
+ content:"";
+ width:100%;
+ height:100%;
+ border-radius: 50%;
+ left:0;
+ z-index:-1;
+ background-image:linear-gradient(to right,#B31270 20%,#581B5E 80%);
+ 
+}
+.features-text h2{
+    margin:20px 0px;
+}
+.features-text p{
+    font-weight:bold;
+}
+
+/* Working of best features has been Completed */
+
+#download-app{
+    background-color: whitesmoke;
+}
+.download-heading{
+    text-align:center;
+}
+.download-heading h1{
+    font-size:2.6rem;
+    position: relative;
+    
+   
+    
+}
+.download-heading h1::after{
+    content:'';
+    position: absolute;
+    margin:auto;
+    width:120px;
+    background-image:linear-gradient(to right,#B31270 20%,#581B5E 80%);
+    height:6px;
+    top:98%;
+   left:46%;
+}
+hr{
+    width:250px;
+    margin:auto;
+    border:1px solid #000;
+}
+.download-container{
+    width:60%;
+    margin:auto;
+    display: flex;
+    flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+}
+.download-text{
+    flex:50%;
+    
+     margin:190px 0px;
+}
+.downloadimage{
+    display: flex;
+    justify-content: flex-end;
+    margin-top:50px
+}
+.downloadimage img{
+    object-fit: cover;
+}
+.download-text h1{
+    font-size:1.6rem;
+    color:#000;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight:bold;
+   width:600px;
+   background-image:linear-gradient(to right,#B31270 20%,#581B5E 80%);
+}
+.download-text p{
+    margin:10px 0px 30px; 
+    padding:10px 0px;
+
+    color:#000;
+   font-weight:700;
+    font-size:1rem;
+    letter-spacing: 1px;
+}
+.storelogo{
+    width:200px;
+    height:60px;
+}
+.storelogo1{
+    width:200px;
+    height:80px;
+    position: relative;
+    top:10px;
+}
+
+/* Video Section Work has been Started */
+#video-play{
+   
+    position: relative;
+}
+.video-container {
+    width:100%;
+    height:80vh;
+  
+}
+.video-container video{
+  
+    height:100%;
+    object-fit: cover;
+    width:100%;
+}
+.overlay-video{
+    width:100%;
+    height:80vh;
+    position: absolute;
+    top: 0;
+    background-image:linear-gradient(to right,#B31270 20%,#581B5E 80%);
+    opacity:0.8;
+}
+/* Video Section has been Completed */
+#workflow{
+    margin:60px 0px 0px;
+    background-color: whitesmoke;
+    position: relative;
+}
+.workflow-container{
+    width:60%;
+    margin: 60px auto 0px;
+    display: flex;
+}
+.workflow-text{
+    flex:50%;
+    
+     margin:100px 0px 0px;
+}
+
+.work-flowimage{
+    object-fit: cover;
+}
+.workflow-text h1{
+    font-size:2rem;
+    color:deeppink;
+    font-family: "poppins",sans-serif;
+    font-weight:bold;
+   width:600px;
+ 
+}
+.workflow-text p{
+    margin:10px 0px 30px; 
+    padding:10px 0px;
+
+      font-weight: bold;
+    font-size:1rem;
+    letter-spacing: 1px;
+}
+
+
+.workflow-heading{
+    text-align:center;
+}
+.workflow-heading h1{
+    font-size:2.6rem;
+    position: relative;
+    
+   
+    
+}
+.workflow-heading h1::after{
+    content:'';
+    position: absolute;
+    margin:auto;
+    width:120px;
+    background-image:linear-gradient(to right,#B31270 20%,#581B5E 80%);
+    height:6px;
+    top:98%;
+   left:46%;
+}
+hr{
+    width:250px;
+    margin:auto;
+    border:1px solid #000;
+}
+
+#learn{
+   
+        width:180px;
+        background-image:linear-gradient(to right,#B31270 20%,#581B5E 80%);
+        padding:8px 10px;
+        display: block;
+        outline: none;
+        cursor: pointer;
+        border:none;
+        display: inline-block;
+       color:#fff;
+        font-size:1rem;
+        transition:all 0.4s linear;
+    
+}
+.round{
+   position: absolute;
+    bottom:10px;
+    left:50%;
+}
+.round span{
+    width:8px;
+    height:8px;
+    background-color: rgb(204, 0, 255);
+    display: inline-block;
+    border-radius:50%;
+    cursor: pointer;
+    margin:0px 6px;
+}
+.round span:nth-child(1){
+    background-color: green;
+}
+
+/* Subscribe  */
+
+#subscribe{
+    height:40vh;
+    background-image:linear-gradient(to right,#B31270 20%,#581B5E 80%);
+}
+.subscribe-container{
+    display: flex;justify-content: center;
+    padding:18px;
+    align-items: center;
+    height:40vh;
+}
+.subscribe-container h1{
+    text-align: center;
+}
+.subscribe-container p{
+    
+    text-align-last: center;
+    margin:20px 0px 30px;
+}
+input[type="email"]{
+    width:180px;
+    background-color: transparent;
+    padding:8px 10px;
+    display: block;
+    outline: none;
+    cursor: pointer;
+    margin:0px 10px;
+   display: inline-block;
+    border:2px solid #fff;
+    color:#fff;
+    font-size:1rem;
+    transition:all 0.4s linear;
+}
+input[type="email"]:focus,input[type="email"]:active{
+    width:240px;
+}
+/* Work of Subscribe has been Completed */
+
+
+/* Contact us form has been Started */
+
+#contactus{
+ background-color: #f9c5d1;
+    background-image: linear-gradient(315deg, #14b1a479 0%, #0e0b9473 74%),url("mobile3.png");
+background-repeat: no-repeat;
+background-position: top left;
+}
+.contact-heading{
+    text-align:center;
+    margin:0px 0px 0px;
+}
+.contact-heading h1{
+    font-size:2.6rem;
+    position: relative;
+    
+   
+    
+}
+.contact-heading h1::after{
+    content:'';
+    position: absolute;
+    margin:auto;
+    width:120px;
+    background-image:linear-gradient(to right,#B31270 20%,#581B5E 80%);
+    height:6px;
+    top:98%;
+   left:46%;
+}
+hr{
+    width:250px;
+    margin:auto;
+    border:1px solid #000;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin:50px 0px 0px;
+    padding-bottom: 30px;
+    
+}
+form{
+    width:400px;
+   
+}
+.email{
+    margin:20px 0px;
+}
+input[type="text"],#email{
+    width:100%;
+    background-color: transparent;
+    padding:8px 10px;
+    display: block;
+    outline: none;
+    cursor: pointer;
+   
+   display: inline-block;
+    border:2px solid #fff;
+    color:#fff;
+    font-size:1rem;
+    transition:all 0.4s linear;
+}
+#email{
+    margin-left:0px;
+}
+input[type="text"]:focus,input[type="text"]:active,#email:focus{
+    width:100%;
+}
+input[type="submit"]{
+    outline: none;
+    border:none;
+    padding:8px 10px;
+    width:100%;
+    color:#fff;
+    cursor: pointer;
+    background-image:linear-gradient(to right,#f70291 20%,#c013cf 80%);
+}
+textarea{
+width:100%;
+resize: none;
+border:none;
+outline:none;
+height:200px;
+}
+textarea:focus,textarea:active{
+    border:none;
+    outline:none;
+    font-size:1rem;
+}
+
+.copyright{
+    text-align:center;
+    padding:8px 10px;
+    font-size:1.3rem;
+    color:gray;
+    background-image:linear-gradient(to right,#B31270 20%,#581B5E 80%);
+}
+#open{
+    display: none;
+}
+#check{display: none;}
+
+@media(max-width:800px){
+
+label,#close,#open{
+
+    position: relative;
+    top:0px;
+    right:-27px;
+    font-size:1.8rem;
+    cursor: pointer;
+}
+.navbar ul{
+    display: block;
+    height:100vh;
+    background-color: red;
+    position: fixed;
+    left:-200px;
+    top:0px;
+    width:200px;
+    padding-top:100px;
+    transition:all 0.6s linear;
+    z-index: 1;
+}
+.navbar ul li a{
+    display: block;
+    padding:30px;
+    font-size:1rem;
+    text-align:left;
+   
+}
+#open{display: block;}
+#check:checked ~ul{
+    background-image:linear-gradient(to right,#B31270 20%,#581B5E 80%);
+    left:0px;
+}
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+
+}
+.text{
+    flex:50%;
+    margin-top:10px;
+
+}
+.text h1{
+    font-size:1.5rem;
+}
+.text p{
+    font-size:0.8rem;
+    text-align: left;
+}
+.btn,.btn1{
+    width:140px;
+    text-align: center;
+}
+.landingimage{
+    flex:50%;
+
+position: relative;
+left:50%;
+
+}
+
+
+.features-container{
+    flex-direction: column;
+   
+}
+.features-column{
+    margin-top:60px;
+}
+
+.download-container{
+    flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+   
+}
+
+.downloadimage{
+    flex:50%;
+
+    position: relative;
+    left:40%;
+}.download-text{
+    margin:0px;
+    flex:100%;
+    position: relative;
+    left:10%;
+}
+.storelogo{
+    width:120px;
+    height:40px;
+    position: relative;
+    top:-10px;
+}
+.storelogo1{
+    width:120px;
+    height:60px;
+    position: relative;
+    top:0px;
+}
+.workflow-container{
+    flex-direction: column;
+    margin-top:0px;
+   
+
+}
+.workflow-text{
+    position: relative;
+    left:10%;
+}
+.work-flowimage{
+    margin:40px 0px;
+    position: relative;
+    left:-30%;
+}#contactus{
+    background-color: #f9c5d1;
+       background-image: linear-gradient(315deg, #14b1a479 0%, #0e0b9473 74%);
+   background-repeat: no-repeat;
+   background-position: top left;
+   }
+}
+
+
+
+
+@media(max-width:450px){
+html{
+    font-size:12px;
+}
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+    
+    }
+    #open{
+        position: relative;
+    right: 10px;
+    }
+    .text{
+        flex:100%;
+        margin-top:10px;
+        position: relative;
+    left: -20%;
+    
+    }
+    .text h1{
+        font-size:1.5rem;
+    }
+    .text p{
+        font-size:0.8rem;
+        text-align: left;
+    }
+    .btn,.btn1{
+        width:100px;
+        text-align: center;
+    }
+    .landingimage{
+        flex:100%;
+    
+    position: relative;
+    left:103%;
+    
+    }
+   
+    
+    .features-container{
+        flex-direction: column;
+       
+    }
+    .icons{
+        left: 29%;
+    }
+    .features-column{
+        margin-top:60px;
+    }
+    
+    .download-container{
+        flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+       
+    }
+    
+    .downloadimage{
+        flex:100%;
+    
+        position: relative;
+        left: 91%;
+    }.download-text{
+        margin:0px;
+        flex:100%;
+        position: relative;
+        left: -15%;
+
+    }
+    .storelogo{
+        width:120px;
+        height:40px;
+        position: relative;
+        top:-10px;
+    }
+    .storelogo1{
+        width:120px;
+        height:60px;
+        position: relative;
+        top:0px;
+    }
+    .workflow-container{
+        flex-direction: column;
+        margin-top:0px;
+       
+    
+    }
+    .workflow-text{
+        position: relative;
+        left:10%;
+    }
+    .work-flowimage{
+        margin:40px 0px;
+        position: relative;
+        left: -103%;
+    }
+    #contactus{
+        background-color: #f9c5d1;
+           background-image: linear-gradient(315deg, #14b1a479 0%, #0e0b9473 74%);
+       background-repeat: no-repeat;
+       background-position: top left;
+       }
+    
+
+    .form{
+        width:80%;
+        margin: 30px auto;
+    }
+    input[type="email"]:focus,input[type="email"]:active{
+        width:180px;
+    }
+    .storelogo{
+        width:80px;
+        height:40px;
+        position: relative;
+        top:-10px;
+    }
+    .storelogo1{
+        width:80px;
+        height:60px;
+        position: relative;
+        top:0px;
+    }
+    .btn,.btn1{
+        width:120px;
+        
+    }
+    .btn1{
+        position: absolute;
+    }
+}
